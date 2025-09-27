@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Trom's Service Informatique — Réparation & Vente</title>
+  <meta name="description" content="Trom's Service Informatique — Réparation, maintenance et vente d'ordinateurs & accessoires. Contactez-nous via WhatsApp." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <div class="brand">
+        <div class="logo">Trom's<span>Service</span></div>
+        <div class="tag">Réparer. Maintenir. Rendre fiable.</div>
+      </div>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#about">À propos</a>
+        <a href="#contact">Contact</a>
+        <a class="cta" href="https://wa.me/2290145594707?text=Bonjour%20Trom's%20Service%20Informatique%20%2C%20je%20voudrais%20des%20informations" target="_blank" rel="noreferrer">WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="intro" class="card">
+      <h1>Trom's Service Informatique</h1>
+      <p class="lead">Maintenance, réparation et vente d'ordinateurs & accessoires — Calavi / Hêvié / Akossavié.</p>
+      <p class="slogan">Ton matériel renaît. Ton travail retrouve sa cadence.</p>
+      <p class="quick">
+        <a class="btn" href="tel:+2290145594707">Appeler</a>
+        <a class="btn" href="mailto:moovgueno@gmail.com">Email</a>
+        <a class="btn" href="https://wa.me/2290145594707?text=Bonjour%20Trom's%20Service%20Informatique%20%2C%20je%20voudrais%20des%20informations" target="_blank" rel="noreferrer">WhatsApp</a>
+      </p>
+    </section>
+
+    <section id="services" class="card">
+      <h2>Services</h2>
+      <div class="grid">
+        <article>
+          <h3>Réparation</h3>
+          <p>Dépannage matériel & logiciel : écrans, disque dur, alimentation, carte mère, etc.</p>
+        </article>
+        <article>
+          <h3>Maintenance & Nettoyage</h3>
+          <p>Nettoyage interne, réinstallation système, optimisation des performances.</p>
+        </article>
+        <article>
+          <h3>Vente & Conseil</h3>
+          <p>Vente d'ordinateurs reconditionnés et accessoires, conseils d'achat adaptés à ton budget.</p>
+        </article>
+        <article>
+          <h3>Sauvegarde & Récupération</h3>
+          <p>Sauvegarde de données et récupération après panne ou effacement accidentel.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="card">
+      <h2>À propos</h2>
+      <p>Je suis Guénolé, technicien en maintenance informatique. Passionné par le hardware et les solutions robustes, j'offre un service respectueux des traditions techniques, tout en utilisant des méthodes modernes et pragmatiques pour garantir la longévité de ton matériel.</p>
+      <p>Localisation : Calavi / Hêvié / Akossavié</p>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>WhatsApp : <a href="https://wa.me/2290145594707" target="_blank" rel="noreferrer">+229 0145594707</a></p>
+      <p>Email : <a href="mailto:moovgueno@gmail.com">moovgueno@gmail.com</a></p>
+      <form id="contactForm" onsubmit="submitForm(event)">
+        <label>Nom<input type="text" name="name" required /></label>
+        <label>Email<input type="email" name="email" required /></label>
+        <label>Message<textarea name="message" rows="4" required></textarea></label>
+        <button class="btn" type="submit">Envoyer</button>
+      </form>
+      <p class="note">Ou écris directement sur WhatsApp pour une réponse rapide.</p>
+    </section>
+
+    <footer class="card footer">
+      <p>&copy; Trom's Service Informatique — Tous droits réservés.</p>
+      <p>Fait avec rigueur & respect des traditions — Design futuriste & pragmatique.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
